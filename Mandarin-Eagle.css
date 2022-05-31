@@ -29,10 +29,10 @@ body {
 	background-image: url(img/bg-sea.jpg);
 	background-size: cover;
 }
-section{
+/* section{
     padding: 60px 0px;
     overflow: hidden;
-}
+} */
 
 /*--------------------------------------------------------------
 # navbar css 
@@ -95,104 +95,32 @@ section{
 }
 
 
+/*--------------------------------------------------------------
+# intro section css 
+--------------------------------------------------------------*/
+.intro-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 /*--------------------------------------------------------------
-# intro css 
+# mandarin-eagle css 
 --------------------------------------------------------------*/
-.headline .title {
-    margin-top: -5px;
+.ship-name {
+    letter-spacing: 1.5px;
+}
+.mandarin-eagle .ship-name .ship-pro-name {
     font-family: 'Harabara';
-    font-size: 30px;
+    font-size: 26px;
     color: #fff;
     font-weight: 100;
     letter-spacing: 1.5px;
-    margin-bottom: 10px;
-}
-.headline .subtitle {
-    font-family: 'Roboto', sans-serif;
-    font-size: 32px;
-    font-weight: 100;
-    color: #fff;
-    margin-top: -5px;
-}
-.headline .description-text-white {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    color: #fff;
-}
-
-
-/*--------------------------------------------------------------
-# Service css 
---------------------------------------------------------------*/
-.service {
-    padding-top: 0px !important;
-}
-.service-title h3 {
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
-    font-weight: 100;
-    margin-top: 10px;
-    margin-bottom: 24px;
-}
-
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: transparent;
-    background-clip: border-box;
-    border: none;
-    border-radius: none !important;
-}
-.card-img, .card-img-top {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-.service .thumb-title {
-    font-family: 'Harabara';
-    font-size: 25px;
-    color: #55cddd;
-    font-weight: 800;
-    /* letter-spacing: 1.5px; */
+    padding-top: 5px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.card-body {
-    flex: 1 1 auto;
-    padding: 0rem 0rem;
-}
-.service .card-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    font-weight: 300;
-    color: #ccc;
-    margin: 0 0 10px;
-}
-
-
-/*--------------------------------------------------------------
-# DASIN HOLDINGS GROUP css 
---------------------------------------------------------------*/
-.dasin-group {
-    padding-top: 0px !important;
-    padding-bottom: 15px !important;
-}
-.slogan-title h3{
-    font-family: 'Harabara';
-    font-size: 40px;
-    color: #55cddd;
-    font-weight: 900;
-    letter-spacing: 1.5px;
-    padding-top: 30px;
-}
-
-.description-slogan-text {
+.mandarin-eagle .ship-name .description-slogan-text {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 200;

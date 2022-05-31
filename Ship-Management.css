@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-img{
+
+img {
     max-width: 100%;
 }
-a{
+
+a {
     text-decoration: none;
     color: white !important;
 }
@@ -20,19 +22,21 @@ body {
 }
 
 .wrapper {
-	min-height: 100%;
-	height: auto;
-	margin: 0 auto -60px;
-	padding: 0 0 60px;
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
 }
+
 .bg-sea {
-	background-image: url(img/bg-sea.jpg);
-	background-size: cover;
+    background-image: url(img/bg-sea.jpg);
+    background-size: cover;
 }
-section{
+
+/* section{
     padding: 60px 0px;
     overflow: hidden;
-}
+} */
 
 /*--------------------------------------------------------------
 # navbar css 
@@ -41,11 +45,13 @@ section{
     background: rgba(1, 38, 69, 0.8) !important;
     color: rgba(1, 38, 69, 0.8);
 }
+
 .navbar {
     position: relative;
     min-height: 110px;
     border: 1px solid transparent;
 }
+
 .navbar-nav > li > a {
     padding-right: 15px !important;
     padding-left: 15px !important;
@@ -76,8 +82,9 @@ section{
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
 }
+
 .dropdown-toggle::after {
-    display:none;
+    display: none;
     margin-left: 0.255em;
     vertical-align: 0.255em;
     content: "";
@@ -86,120 +93,83 @@ section{
     border-bottom: 0;
     border-left: 0.3em solid transparent;
 }
+
 .dropdown-item:focus, .dropdown-item:hover {
     color: #55cddd !important;
     background-color: transparent;
 }
+
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #55cddd !important;
 }
 
 
+/*--------------------------------------------------------------
+# intro section css 
+--------------------------------------------------------------*/
+.intro .page-banner-company-profile {
+    height: 350px;
+    width: auto;
+    background-repeat: no-repeat !important;
+    background-position: center top !important;
+    background-attachment: fixed !important;
+}
 
 /*--------------------------------------------------------------
-# intro css 
+# ship-management css 
 --------------------------------------------------------------*/
-.headline .title {
-    margin-top: -5px;
-    font-family: 'Harabara';
-    font-size: 30px;
-    color: #fff;
-    font-weight: 100;
-    letter-spacing: 1.5px;
-    margin-bottom: 10px;
+.ship-management {
+    padding-top: 25px;
+    padding-bottom: 100px;
 }
-.headline .subtitle {
+
+.ship-man-subtitle {
     font-family: 'Roboto', sans-serif;
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 100;
     color: #fff;
-    margin-top: -5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    line-height: 1.1;
 }
-.headline .description-text-white {
+
+.description-text-white {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: #fff;
 }
 
+.description-text-white p {
+    margin: 0 0 10px;
+}
+
 
 /*--------------------------------------------------------------
-# Service css 
+# Service section css 
 --------------------------------------------------------------*/
-.service {
-    padding-top: 0px !important;
+.service-cte {
+    background-color: #051220;
+    padding-top: 20px;
 }
-.service-title h3 {
-    font-family: 'Roboto', sans-serif;
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
-    font-weight: 100;
-    margin-top: 10px;
-    margin-bottom: 24px;
+.category-title {
+    margin-top: -25px;
 }
-
-.card {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: transparent;
-    background-clip: border-box;
-    border: none;
-    border-radius: none !important;
-}
-.card-img, .card-img-top {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-.service .thumb-title {
+.category-title h3 {
     font-family: 'Harabara';
     font-size: 25px;
     color: #55cddd;
-    font-weight: 800;
-    /* letter-spacing: 1.5px; */
+    font-weight: 100;
+    letter-spacing: 1.5px;
     margin-top: 20px;
     margin-bottom: 10px;
 }
-.card-body {
-    flex: 1 1 auto;
-    padding: 0rem 0rem;
-}
-.service .card-text {
+.description-text {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 300;
     color: #ccc;
-    margin: 0 0 10px;
 }
-
-
-/*--------------------------------------------------------------
-# DASIN HOLDINGS GROUP css 
---------------------------------------------------------------*/
-.dasin-group {
-    padding-top: 0px !important;
-    padding-bottom: 15px !important;
-}
-.slogan-title h3{
-    font-family: 'Harabara';
-    font-size: 40px;
-    color: #55cddd;
-    font-weight: 900;
-    letter-spacing: 1.5px;
-    padding-top: 30px;
-}
-
-.description-slogan-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 200;
-    color: #fff;
-    margin: 0 0 10px;
-}
-
 
 /*--------------------------------------------------------------
 # Footer section css 
@@ -212,12 +182,15 @@ section{
     width: 100%;
     padding-top: 0px !important;
 }
-#footers{
+
+#footers {
     background-color: black;
 }
+
 #footers .copyright {
     padding-top: 5px;
 }
+
 #footers .footer-font {
     font-size: 16px;
     letter-spacing: 1.5px;
@@ -225,6 +198,7 @@ section{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
 #footers .copyright-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
@@ -232,12 +206,14 @@ section{
     font-size: 13px;
     margin-top: -5px;
 }
+
 .navbar-right {
     font-family: 'Harabara';
     font-size: 20px;
     letter-spacing: 1.5px;
     float: right !important;
 }
+
 .footer-menu {
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
@@ -249,9 +225,11 @@ section{
     padding-left: 6px;
     margin-top: 15px;
 }
+
 .footer-menu {
     float: left !important;
 }
+
 #menu-footer-menu {
     margin-top: 0;
     margin-bottom: 10px;
